@@ -78,7 +78,7 @@
     </p>
   <p class="article-time">
     <time datetime="2015-01-20T14:28:52.000Z" itemprop="datePublished">Jan 20 2015</time>
-    Updated:<time datetime="2015-01-20T15:20:22.000Z" itemprop="dateModified">Jan 20 2015</time>
+    Updated:<time datetime="2015-01-20T15:28:49.000Z" itemprop="dateModified">Jan 20 2015</time>
     
   </p>
 </header>
@@ -94,7 +94,8 @@
 <pre><code>迈克菲实验室称，新浪微博App通过明文HTTP发送消息，用户没有任何隐私，攻击者很容易收集Cookie，或通过中间人攻击修改信息，比如插入恶意链接。利用  Wireshark捕捉流量，用户通过聊天窗口与朋友的聊天记录完全一览无余。迈克菲实验室还发现，搜狗输入法会收集用户插入到电脑上的设备的信息，然后明文HTTP发送出去。
 </code></pre><p>看到这则新闻，不由得想起了两件不愉快的事，就是Android版的 EverNote和有道云笔记 都是明文存储内容的！(ios版没有仔细看过)<br>虽然有道云笔记有什么密码登录以及阅读加密的功能。</p>
 <p>Android权限系统是基于Linux的,这些App的data目录是rwxrwx—-权限，Android为每一个App创建一个用户，所以正常情况下一个App是访问不了另一个App的data数据，但显然root的手机就不是如此了，给予read sdcard的权限，这时候就可以获取这些数据了。</p>
-<p>下面两张图是在本人手机上获取Evernote笔记的效果(也可以自行使用RootExplorer查看)。<br><img src="/img/myapp.png" alt="我的程序看到的内容"><br><img src="/img/evernote.png" alt="Evernote原文"></p>
+<p>下面两张图是在本人手机上获取Evernote笔记的效果(也可以自行使用RootExplorer查看)。</p>
+<p>我的程序看到的内容<br><img src="/img/myapp.png" alt="我的程序看到的内容"><br>Evernote原文<br><img src="/img/evernote.png" alt="Evernote原文"></p>
 <p>真是吐槽无力啊，一个程序给你带来了无尽的便利，可是却将你置于危险境地，你还会使用吗？涉及的问题是，该如何去定义一个好的App？如何去定义一个好的开发者？如何去理解一个开发者说的“任务开发完毕”？如何去理解“程序写得好”？</p>
 <p>没有比代码提交甘特图，bug解决率，redmine更能起着自我安慰自我欺骗的东西了。</p>
 <p>然而有一点的是，那些做什么事都成竹在胸的，是绝不可以轻信的。</p>
